@@ -31,7 +31,7 @@ func main() {
 	for i :=0; i<5; i++ {
 		fmt.Println("value of i is ", i)
 	}
-	fruits := []string{"apple", "mango", "grape"}
+	fruits := []string{"apple", "mango", "grape", "orange"}
 	for i:=0; i<len(fruits);i++{
 		fmt.Println(fruits[i])
 	}
@@ -46,6 +46,10 @@ func main() {
 		if index == 1{
 			fmt.Println("continuing at pos", index)
 			continue
+		}
+		if index > 2 {
+			fmt.Println("breaking at pos", index)
+			break
 		}
 		fmt.Printf("The value of pos %v is %v \n", index, value)
 	}
