@@ -41,4 +41,12 @@ func main() {
 	for _,value:=range fruits{
 		fmt.Printf("The value is %v\n", value)
 	}
+
+	for index, value := range fruits{
+		if index == 1{
+			fmt.Println("continuing at pos", index)
+			continue
+		}
+		fmt.Printf("The value of pos %v is %v \n", index, value)
+	}
 }
