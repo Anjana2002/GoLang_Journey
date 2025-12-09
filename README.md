@@ -11,9 +11,6 @@ To master Go programming by learning consistently and building real-world backen
 
 ---
 
-
----
-
 ## 🧰 Setup
 
 Check Go version:
